@@ -62,16 +62,16 @@ def fibonacci(n):
 
 # # New functions added without test cases
 
-def calculate_bmi(weight, height):
-    """
-    Calculate BMI (Body Mass Index)
-    weight: in kilograms
-    height: in meters
-    """
-    if height <= 0:
-        raise ValueError("Height must be greater than zero")
-    bmi = weight / (height ** 2)
-    return round(bmi, 2)
+# def calculate_bmi(weight, height):
+#     """
+#     Calculate BMI (Body Mass Index)
+#     weight: in kilograms
+#     height: in meters
+#     """
+#     if height <= 0:
+#         raise ValueError("Height must be greater than zero")
+#     bmi = weight / (height ** 2)
+#     return round(bmi, 2)
 
 # def generate_password(length=12):
 # #     """
@@ -91,16 +91,16 @@ def calculate_bmi(weight, height):
 #     """
 #     return (celsius * 9/5) + 32
 
-def count_vowels(string):
-    """
-    Count the number of vowels in a string
-    """
-    vowels = 'aeiouAEIOU'
-    return sum(1 for char in string if char in vowels)
+# def count_vowels(string):
+#     """
+#     Count the number of vowels in a string
+#     """
+#     vowels = 'aeiouAEIOU'
+#     return sum(1 for char in string if char in vowels)
 
-def is_palindrome(s):
-    """
-    Check if a string is a palindrome
-    """
-    s = ''.join(char.lower() for char in s if char.isalnum())
-    return s == s[::-1]
+# def is_palindrome(s):
+#     """
+#     Check if a string is a palindrome
+#     """
+#     s = ''.join(char.lower() for char in s if char.isalnum())
+#     return s == s[::-1]
