@@ -85,11 +85,11 @@ def fibonacci(n):
 
 # New functions added without test cases(2)
 
-# def celsius_to_fahrenheit(celsius):
-#     """
-#     Convert Celsius to Fahrenheit
-#     """
-#     return (celsius * 9/5) + 32
+def celsius_to_fahrenheit(celsius):
+    """
+    Convert Celsius to Fahrenheit
+    """
+    return (celsius * 9/5) + 32
 
 def count_vowels(string):
     """
